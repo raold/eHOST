@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{timeline}
+
+\geometry{
+  top=1in,            % <-- adjust this
+  inner=1in,
+  outer=1in,
+  bottom=0.5in,
+  headheight=6ex,       % <-- and this
+  headsep=4ex,          % <-- and this
+}
+
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \lhead{Rafael Ceschin \& Richard Oldham}
+  \chead{\today}
+  \rhead{HCI Project Proposal}
+  
+\begin{document}
+
+\section{Introduction}
+The extensible Human Oracle Suite of Tools (eHOST) application was developed by the Utah VA for text annotation of clinical documents. eHOST was developed to address inefficiencies in text annotator workflow by integrating the necessary tools into a single Java-based application.
+
+\section{Methods}
+
+\subsection{Cognitive Walkthrough}
+
+In a Cognitive Walkthrough, reviewers evaluate an interface in the context of one or more specific user tasks. In our case, we have a working application and understand the user population to be medical text annotators. 
+
+\subsection{Heuristic Evaluation}
+
+Heuristic evaluation involves having a small set of evaluators examine the interface and judge its compliance with recognized usability principles. Nielsen's heuristics provide design guidance in the form of best-practice rules.
+
+\section{Timeline}
+\begin{timeline}{2in}(0,51)
+\optrule
+  \item[5]{October}{Submit proposal}
+  \item[15]{October}{Begin Cognitive Walkthrough}
+  \item[16]{October}{Begin draft report}
+  \item[25]{November}{Complete Cognitive Walkthrough}
+  \item[26]{November}{Begin heuristic evaluation}
+  \item[35]{November}{Complete evaluations}
+  \item[46]{December}{Submit evaluation}
+\end{timeline}
+
+\end{document}
