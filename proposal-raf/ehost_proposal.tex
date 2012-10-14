@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{timeline}
+
+\geometry{
+  top=1in,            % <-- adjust this
+  inner=1in,
+  outer=1in,
+  bottom=0.5in,
+  headheight=6ex,       % <-- and this
+  headsep=4ex,          % <-- and this
+}
+
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \lhead{Rafael Ceschin \& Richard Oldham}
+  \chead{\today}
+  \rhead{HCI Project Proposal}
+  
+\begin{document}
+
+\section{Introduction}
+The extensible Human Oracle Suite of Tools (eHOST) application was developed by the Utah VA for text annotation of clinical documents. eHOST was developed to address inefficiencies in text annotator workflow by integrating the necessary tools into a single Java-based application.
+
+\section{Methods}
+
+We propose evaluating the eHOST application using the cognitive walkthrough and heuristic evaluation methods.
+
+\subsection{Cognitive Walkthrough}
+
+In a Cognitive Walkthrough, evaluators decompose goals into specific tasks required to accomplish the goal.\footnote[1]{Wharton, C., Rieman, J., Lewis, C,, and Poison, P. (1994). The cognitive walkthrough method: A practitioner’s guide. In Nielsen, J., and Mack, R. L. (Eds.), Usability Inspection Methods, John Wiley \& Sons, New York, 105--140.} We will work with Brett and Harry to develop an idea of a typical user and typical task set. We can then evaluate the likelihood that our typical user could complete the specified actions. Rafael and Richard will act as the evaluators.
+
+\subsection{Heuristic Evaluation}
+
+Heuristic evaluation involves having a small set of evaluators examine the interface and judge its compliance with recognized usability principles.\footnote[2]{Nielsen, J. (1994). Heuristic evaluation. In Nielsen, J., and Mack, R. L. (Eds.), Usability Inspection Methods, John Wiley \& Sons, New York, 25--64.}\textsuperscript{,}\footnote[3]{Nielsen, J. and Molich, R. (1990). Heuristic evaluation of user interfaces. \textit{Proc. ACMCHI '90 Conf.} (Seattle, WA, April 1--5), 249-256.} Nielsen's heuristics provide design guidance in the form of best-practice rules.\footnote[4]{Nielsen, J (1993). \textit{Usability Engineering}. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.} We propose evaluating heuristics on a task by task basis. The users first inspect the user interface individually, then the aggregated observations are used for the final evaluation. Richard and Rafael will perform this evaluation. 
+
+\subsection{Improvement and Redesign}
+
+Based on results from cognitive walkthrough and heuristic evaluation, we will devise theoretical improvements to the usability of the tool. Particular attention will be given to the UMLS look-up feature of the software, which is currently undocumented.
+
+\section{Timeline}
+\begin{timeline}{2in}(0,51)
+\optrule
+  \item[5]{October}{Submit proposal}
+  \item[15]{October}{Begin Cognitive Walkthrough}
+  \item[16]{October}{Begin draft report}
+  \item[25]{November}{Complete Cognitive Walkthrough}
+  \item[26]{November}{Begin heuristic evaluation}
+  \item[35]{November}{Complete evaluations}
+  \item[36]{November}{Begin redesign}
+  \item[40]{December}{Complete redesign and finalize report}
+  \item[46]{December}{Submit evaluation}
+\end{timeline}
+
+\end{document}

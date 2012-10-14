@@ -1,0 +1,14 @@
+
+*.aux
+
+*.bbl
+
+proposal-raf/.texpadtmp/ehost_proposal.blg
+
+proposal-raf/.texpadtmp/ehost_proposal.log
+
+proposal-raf/.texpadtmp/ehost_proposal.synctex.gz
+
+proposal-raf/ehost_proposal.log
+
+proposal-raf/ehost_proposal.synctex.gz
